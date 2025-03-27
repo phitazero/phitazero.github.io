@@ -6,15 +6,21 @@
 	<title>phitazero's best creation</title>
 </head>
 <body>
-<script>
-	setTimeout(() => {
-		location.href = "https://www.youtube.com/watch?v=2yJgwwDcgV8"
-	}, 2000)
-	setTimeout(() => {
-		parmesan = document.getElementById("random-unneccesarily-long-id-because-who-would-ever-need-the-code-of-this-page")
-		parmesan.innerHTML = "you should be redirected by now"
-	}, 2500)
-</script>
-<h3 id="random-unneccesarily-long-id-because-who-would-ever-need-the-code-of-this-page">wait a little for your browser to save the title for this page</h3>
+	<h1 id="random-unneccesarily-long-id-because-who-would-ever-the-code-for-this-useless-page">Deciding your fate... Choosing one of vast amount of outcomes...</h1>
+	<script>
+		const parmesan = document.querySelector("random-unneccesarily-long-id-because-who-would-ever-the-code-for-this-useless-page")
+		setTimeout(() => {
+			parmesan.innerHTML = "Fate decided successfully."
+
+			const val = Math.floor(Math.random() * 3)
+
+			if (val == 0) { link = "https://youtu.be/dQw4w9WgXcQ" }
+			if (val == 1) { link = "https://youtu.be/2yJgwwDcgV8" }
+			if (val == 2) { link = "https://youtu.be/3X-iqFRGqbc" }
+
+			location.href = link
+
+ 			}, 1500)
+	</script>
 </body>
 </html>
